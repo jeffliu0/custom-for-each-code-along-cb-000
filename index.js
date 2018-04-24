@@ -7,6 +7,7 @@ function forEach(iterable, callback) {
   }
   else if (typeof iterable === 'object') {
     for(const key in iterable){
+      const value = iterable[key]
       callback(iterable[key],key,iterable)
     })
   }
