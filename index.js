@@ -5,7 +5,7 @@ function forEach(iterable, callback){
     }
   }
   else if (typeof iterable === 'object'){
-    forEach(const key in iterable{
+    for(const key in iterable{
       callback(iterable[key],key,iterable)
     })
   }
